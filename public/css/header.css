@@ -1,0 +1,40 @@
+.header{
+    padding-bottom: 30px;
+}
+.header.header{
+    background-color: var(--Amarillo);
+}
+.header img.logo{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 35%;
+}
+.header #busqueda{
+    padding-left: 30px;
+    padding-bottom: 10px 0;
+}
+.header p{
+    text-align: center;
+}
+.header nav{
+    font-size: 12px;
+}
+.header nav ul{
+    padding-top: 15px;
+
+}
+
+.header div.burger-menu i{
+    border-radius: 5px;
+    color: white;
+    background-color: var(--Celeste);
+    padding: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    
+}
+.header div.burger-menu{
+    text-align: center;
+   padding-top: 15px;
+}

@@ -1,0 +1,30 @@
+body{
+    font-family: "Roboto";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p.texto{
+   font-size: 12px;
+}
+
+h3.titulares{
+    font-size: 23px;
+}
+
+p.precio{
+    font-size: 18px;
+}
+p.descuentos{
+    font-size: 16px;
+}
+h4.descripciones{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
