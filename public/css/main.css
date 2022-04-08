@@ -1,0 +1,39 @@
+.main{
+    width: 90%;
+    margin: auto;
+}
+.main article{
+    margin: 10px;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+.main .titulares{
+    text-align: left;
+}
+
+.main .producto{
+    text-align: left;
+}
+
+.main .img{
+    text-align: center;
+}
+.main .descuento{
+    color:var(--Verde)
+}
+.main section article div i{
+        color: var(--Verde);
+      padding: 10px;
+      height:30px;
+      width:30px;
+         -moz-border-radius:30px;
+      -webkit-border-radius:30px;
+      border-radius:30px;
+      border: var(--Verde) solid 1px;
+
+}
+.main .descripcion{
+    color: var(--GrisOscuro);
+    padding-top: 15px;
+    font-weight: 300;
+}
