@@ -1,7 +1,14 @@
-.main{
+.banner img{
+    display: none;
+    width: 100vw;
+
+}
+
+.main .bodymain{
     width: 90%;
     margin: auto;
 }
+
 .main article{
     margin: 10px;
     border: 1px solid #ebebeb;
@@ -17,6 +24,8 @@
 
 .main .img{
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 .main .descuento{
     color:var(--Verde)
@@ -33,7 +42,31 @@
 
 }
 .main .descripcion{
+    display: none;
     color: var(--GrisOscuro);
     padding-top: 15px;
     font-weight: 300;
+}
+
+/*tablet*/
+
+@media (min-width: 361px){
+    
+    .main .descripcion{
+        display: block;
+        color: var(--GrisOscuro);
+        padding-top: 15px;
+        font-weight: 300;
+    }
+    .main article{
+        margin: 10px;
+        border: 1px solid #ebebeb;
+        padding: 15px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .banner img{
+        display: block;
+        width: 100vw;
+    
+    }
 }

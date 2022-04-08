@@ -13,6 +13,7 @@
 .header #busqueda{
     padding-left: 30px;
     padding-bottom: 10px 0;
+
 }
 .header p{
     text-align: center;
@@ -21,6 +22,7 @@
     font-size: 12px;
 }
 .header nav ul{
+    display: none;
     padding-top: 15px;
 
 }
@@ -37,4 +39,26 @@
 .header div.burger-menu{
     text-align: center;
    padding-top: 15px;
+}
+
+/*tablet*/
+
+@media (min-width: 361px){
+    .header #busqueda{
+        display: block;
+        padding-left: 30px;
+        padding-bottom: 10px 0;
+    
+    }
+    .header nav ul{
+        display: block;
+        padding-top: 15px;
+    
+    }
+    .header div.burger-menu{
+        display: none;
+        text-align: center;
+       padding-top: 15px;
+       
+    }
 }
