@@ -4,6 +4,7 @@ body{
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 p.texto{
@@ -27,5 +28,8 @@ a{
     text-decoration: none;
     list-style: none;
     color: black;
+}
+img{
+    width: 100%;
 }
 
