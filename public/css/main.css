@@ -7,12 +7,14 @@
 .main .bodymain{
     width: 90%;
     margin: auto;
+ 
 }
 
 .main article{
     margin: 10px;
     border: 1px solid #ebebeb;
     padding: 15px;
+    background-color: white;
 }
 .main .titulares{
     text-align: left;
@@ -30,17 +32,7 @@
 .main .descuento{
     color:var(--Verde)
 }
-.main section article div i{
-        color: var(--Verde);
-      padding: 10px;
-      height:30px;
-      width:30px;
-         -moz-border-radius:30px;
-      -webkit-border-radius:30px;
-      border-radius:30px;
-      border: var(--Verde) solid 1px;
 
-}
 .main .descripcion{
     display: none;
     color: var(--GrisOscuro);
@@ -48,6 +40,11 @@
     font-weight: 300;
 }
 
+
+.main .titulares__producto_pd{
+    display: flex;
+    flex-wrap: wrap;
+}
 .main section article i{ 
     display: block; 
     font-size: 16px; 
@@ -60,15 +57,13 @@
     position: absolute; 
     right: 20px; 
     top: -15px;
+    text-align: right;
+    color: var(--Verde);
 }
-.main .titulares__producto{
-    display: flex;
-    flex-direction: column;
-}
-
-.main .titulares__producto_pd{
-    display: flex;
-    flex-wrap: wrap;
+main section article .titulares__producto {
+    padding: 15px 15px;
+    border: 1px solid var(--colorGrisClaro);
+    position: relative;
 }
 .main .titulares__producto_pd .precio{
     display: flex;
@@ -89,15 +84,29 @@
         padding-top:15px;
         font-weight: 300;
     }
+
+    
+    .main .section__Articles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+               
+        }
     .main article{
-        margin: 10px;
-        border: 1px solid #ebebeb;
-        padding: 15px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+          box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%; 
     }
+  
     .banner img{
         display: block;
         width: 100vw;
     
-    }
+    }  
+}
+/*desktop*/
+
+@media (min-width: 1024px){
+    .main article{
+          width: 20%; 
+  }
 }

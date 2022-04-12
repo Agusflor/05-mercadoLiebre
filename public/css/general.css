@@ -6,12 +6,15 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
+.home{
+    background-color: var(--GrisClaro);
+    
+}
 p.texto{
    font-size: 12px;
 }
 
-h3.titulares{
+h3.titulos{
     font-size: 23px;
 }
 
