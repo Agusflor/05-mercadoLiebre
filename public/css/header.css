@@ -4,22 +4,41 @@
 .header.header{
     background-color: var(--Amarillo);
 }
-.header img.logo{
-    padding-left: 30px;
+.header .logo-busqueda {
     padding-top: 20px;
-    padding-bottom: 10px;
-    width: 30%;
+       display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    flex-wrap: wrap;
+   
 }
-.header #busqueda{
-    padding-left: 30px;
-    padding-bottom: 10px 0;
 
+.header .logo-busqueda .icon {
+    color: var(--GrisOscuro);
+    position: relative;
+           
 }
+.header .logo{
+       display: flex;
+    width: 50%;
+       
+}
+.header #busqueda {
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   
+   }
+   .header #busqueda input {
+    width: 85%;
+   }
+   
 .header p{
+    font-size: 12px;
     text-align: center;
 }
 .header nav{
-    font-size: 12px;
+    font-size: 16px;
 }
 .header nav ul{
     display: none;
@@ -41,24 +60,82 @@
    padding-top: 15px;
 }
 
-/*tablet*/
+
+/*tablet
+home__header__nav{
+        display: block;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .home__header__nav a{
+        color: white;
+        font-size: 12px;
+        margin: 0 10px;
+    }
+   */
+
 
 @media (min-width: 361px){
-    .header #busqueda{
-        display: block;
-        padding-left: 30px;
-        padding-bottom: 10px 0;
     
+    .header nav ul li{
+        list-style: none;
+        text-align: center;
+
     }
-    .header nav ul{
-        display: block;
-        padding-top: 15px;
+    .header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+           }
+    .header nav ul {
+            display: flex;
+            padding-top: 15px;
+            justify-content: space-around;
+            width: 50%;
+            font-size: 12px;
+        }
     
-    }
+        
     .header div.burger-menu{
         display: none;
         text-align: center;
        padding-top: 15px;
        
+    }
+
+    .header .logo-busqueda {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+}
+.header .logo{
+ width: 33%;
+    
+}
+.header #busqueda {
+ width: 33%;
+display: flex;
+justify-content: center;
+
+}
+.header .texto {
+    width: 33%;
+}
+}
+    /* desktop */
+@media (min-width: 768px){
+    .header nav ul {
+    width: 45%;
+    font-size: 16px;
+    }
+    .header p{
+        font-size: 16px;
+        
     }
 }

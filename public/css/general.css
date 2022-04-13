@@ -11,7 +11,7 @@ body{
     
 }
 p.texto{
-   font-size: 12px;
+   font-size: 16px;
 }
 
 h3.titulos{
@@ -21,8 +21,9 @@ h3.titulos{
 p.precio{
     font-size: 18px;
 }
-p.descuentos{
+p.descuento{
     font-size: 16px;
+    text-transform: uppercase;
 }
 h4.descripciones{
     font-size: 16px;
