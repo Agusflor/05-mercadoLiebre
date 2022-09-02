@@ -1,0 +1,32 @@
+.register{
+    background-color: var(--GrisClaro);
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+}
+.register h2{
+    text-align: center;
+}
+.register label{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+}
+.register input{
+    border: none;
+    }
+.register .buttons{
+    text-align: center;
+}
+.register__opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.register__opciones div input{
+    display: flex;
+    
+}

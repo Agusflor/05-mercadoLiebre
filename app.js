@@ -7,5 +7,6 @@ const port=3030;
 app.use(express.static('public'));
 /* rutas */
 app.get('/',(req,res)=> res.sendFile(path.resolve(__dirname,'views', 'home.html')));
+app.get('/register',(req,res)=> res.sendFile(path.resolve(__dirname,'views', 'register.html')));
 /*server */
 app.listen(port,()=> console.log(`server running https://localhost:${port}`));
