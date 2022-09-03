@@ -1,18 +1,23 @@
 .register{
-    background-color: var(--GrisClaro);
+    background-color: var(--GrisClaro); 
 }
 
 .register form {
     display: flex;
     flex-direction: column;
+    width: 85%;
+    margin: auto;
+    border-radius: 1px;
 }
 .register h2{
     text-align: center;
+    padding: 5px 0;
 }
 .register label{
     text-transform: capitalize;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
+    padding: 5px 0;
 }
 .register input{
     border: none;
@@ -20,13 +25,82 @@
 .register .buttons{
     text-align: center;
 }
-.register__opciones{
+.forms__datos{
+   
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+.forms__datos__parteii{
+  
+    display: flex;
+    flex-direction: column;
+}
+.register__opciones_interes{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+
+}
+.register__opciones_interes div{
+    padding: 5px 0;
 }
 
-.register__opciones div input{
+.register__opciones{
     display: flex;
+    justify-content: space-evenly;
+}
+.buttons{
+    padding: 10px 0;
+}
+.buttons button a{
+    color: beige;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--Celeste);
+    color:beige;
+
     
+}
+.login__datos{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 361px){
+    .register form {
+        width: 90%;
+    }
+    .register label, input {
+        font-size: 16px;
+    }
+}
+@media (min-width: 769px){
+    .login__datos{
+        width: 50%;
+        padding: 2%;
+    }
+    .register button{
+        font-size: 16px;
+    }
+    .register form {
+        font-size: 16px;
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+.forms__datos{
+    width: 45%;
+    
+}
+.forms__datos__parteii{
+    width: 45%;
+    
+}
 }

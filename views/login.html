@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
     <script src="https://kit.fontawesome.com/182101e9ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -37,64 +37,19 @@
                   <i class="fas fa-bars"></i>           
               </div>       
       </header>
-    <h2> Registrate</h2>
+    <h2>Inicia sesión</h2>
     <form action="" method="POST">
-        <div class="forms__datos">
-            <label for="nombreCompleto">Nombre y Apellido</label>
-            <input requiredtype="text" placeholder="Nombre y Apellido" name="nombreCompleto" id="nombreCompleto">
-            <label for="usuario">Usuario</label>
-            <input required type="text" placeholder="Usuario" name="usuario" id="usuario">
+        <div class="login__datos">
             <label for="email">Email</label>
-            <input required type="text" placeholder="Email" name="email" id="email">
-            <label for="fecha">Fecha de nacimiento</label>
-            <input required type="date" name="fecha" id="fecha">
-            <label for="direccion">Domicilio</label>
-            <input required type="text" placeholder="Domicilio" name="direccion" id="direccion" min="1950-12-31">
-            <label for="perfil">Perfil del Usuario</label>
-            <div class="register__opciones">
-    
-                <div>
-                    <input  type="radio" id="comprar" name="perfil" value="comprar">
-                    <label for="comprar">Comprar</label>
-                </div>
-                <div>
-                    <input  type="radio" id="vender" name="perfil" value="vender">
-                    <label for="vender">Vender</label>
-                </div>
-            </div>
+            <input type="text" placeholder="Email" name="email" id="email" required>
         </div>
-       <div class="forms__datos__parteii">
-        <label for="categoria">Categorías de interes</label>
-        <div class="register__opciones_interes">
-            <div>
-               <input  type="checkbox" id="Electro" name="categoria" value="Electro">
-            <label for="Electro">Electro</label> 
-            </div>
-            <div>
-             <input  type="checkbox" id="Moda" name="categoria" value="Moda">
-            <label for="Moda">Moda</label>   
-            </div>
-            <div>
-             <input  type="checkbox" id="Hogar" name="categoria" value="Hogar">
-            <label for="Hogar">Hogar</label>   
-            </div>
-            <div>
-             <input  type="checkbox" id="Jugueteria" name="categoria" value="Jugueteria">
-            <label for="Jugueteria">Juguetería</label>   
-            </div>
-            <div>
-             <input  type="checkbox" id="Vida sana" name="categoria" value="Vida sana">
-            <label for="Vida sana">Vida sana</label>   
-            </div>           
-        </div>
+        <div class="login__datos">
+            
             <label for="contraseña">Contraseña</label>
-            <input required type="password" placeholder="Contraseña"name="contraseña" id="contraseña">
-            <label for="contraseña2">Confirmar contraseña</label>
-            <input required type="password" placeholder="Confirmar contraseña" name="contraseña2" id="contraseña2">
+            <input type="password" placeholder="Contraseña"name="contraseña" id="contraseña" required>
         </div>
             <div class="buttons">
-               <button type="submit"  value="Submit">Enviar</button>
-            <button><a href="/">Home</a></button>
+               <button type="submit"  value="Submit">Ingresá</button>
             <button type="reset"  value="reset">Borrar</button> 
             </div>
     </form>

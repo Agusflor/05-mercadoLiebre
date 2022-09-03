@@ -15,7 +15,7 @@
 
 .header .logo-busqueda .icon {
     color: var(--GrisOscuro);
-    position: relative;
+    border: none;
            
 }
 .header .logo{
