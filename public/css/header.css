@@ -10,6 +10,7 @@
     justify-content: space-around   ;
     align-items: center;
     flex-wrap: wrap;
+    border: none;
    
 }
 
@@ -27,10 +28,11 @@
     width: 50%;
    display: flex;
    justify-content: center;
-   
+   border: none;   
    }
    .header #busqueda input {
     width: 85%;
+    border: none;
    }
    
 .header p{

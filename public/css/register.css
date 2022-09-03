@@ -70,6 +70,11 @@
 .login__datos{
     display: flex;
     flex-direction: column;
+
+}
+
+#buttonLogin:hover{
+    background-color: #0022AA;
 }
 @media (min-width: 361px){
     .register form {
